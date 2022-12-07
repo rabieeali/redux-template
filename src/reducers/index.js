@@ -1,10 +1,9 @@
 import { combineReducers } from "redux"
-import { counterReducer } from "./counter"
-import { loginReducer } from "./login"
+import { addTaskReducer } from "./addTaskReducer"
 
 
 
 export const reducers = combineReducers({
-    counter: counterReducer,
-    login: loginReducer
+    tasks: addTaskReducer,
+
 })

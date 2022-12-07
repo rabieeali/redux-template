@@ -1,8 +1,12 @@
-import Counter from "./components/Counter"
+import AddTask from "./components/AddTask"
+
 
 const App = () => {
+
   return (
-    <Counter />
+    <>
+    <AddTask />
+    </>
   )
 }
 
