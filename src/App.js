@@ -1,13 +1,13 @@
-import AddTask from "./components/AddTask"
-import TodoList from "./components/TodoList"
-
+import ProductList from "./components/ProductList"
+import ShoppingCart from "./components/ShoppingCart"
 
 const App = () => {
 
   return (
     <>
-      <AddTask />
-      <TodoList />
+
+        <ProductList />
+      <ShoppingCart />
     </>
   )
 }

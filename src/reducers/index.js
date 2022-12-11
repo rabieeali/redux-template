@@ -1,9 +1,9 @@
-import { combineReducers } from "redux"
-import { addTaskReducer } from "./addTaskReducer"
+// import { combineReducers } from "redux"
+// import { addTaskReducer } from "./addTaskReducer"
 
 
 
-export const reducers = combineReducers({
-    tasks: addTaskReducer,
+// export const reducers = combineReducers({
+//     tasks: addTaskReducer,
 
-})
+// })
