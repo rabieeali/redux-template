@@ -1,9 +1,13 @@
 import React from 'react'
+import { useSelector } from 'react-redux'
+
 
 const ShoppingCart = () => {
+    const total = useSelector(state => state.shoppingCart.total)
+
     return (
         <div className="shopping-cart">
-            total:
+            Total: {total} $
         </div>
     )
 }

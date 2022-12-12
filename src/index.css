@@ -12,6 +12,7 @@ body {
 html {
   padding: 1rem;
 }
+
 .card-container {
   display: flex;
   align-items: center;
@@ -43,4 +44,18 @@ html {
   margin: 1rem auto 0;
   color: #fff;
   font-weight: 600;
+}
+.operations {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: rgb(196, 239, 255);
+  transition: all 0.5s;
+}
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }

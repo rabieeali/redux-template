@@ -1,9 +1,8 @@
-// import { combineReducers } from "redux"
-// import { addTaskReducer } from "./addTaskReducer"
+import { combineReducers } from "redux"
+import { cartReducer } from "./cartReducer"
 
 
 
-// export const reducers = combineReducers({
-//     tasks: addTaskReducer,
-
-// })
+export const reducers = combineReducers({
+    shoppingCart: cartReducer,
+})

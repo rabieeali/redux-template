@@ -5,8 +5,8 @@ const App = () => {
 
   return (
     <>
-
-        <ProductList />
+      <h1>Redux Shopping Cart</h1>
+      <ProductList />
       <ShoppingCart />
     </>
   )
