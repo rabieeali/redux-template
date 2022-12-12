@@ -28,7 +28,7 @@ const Product = ({ id, title, image, price }) => {
             <div className="card">
                 <img src={image} alt={title} />
                 {title}
-                <button onClick={addProduct}>Add {price}$ {count === 0 ? "" : "(" + count + ")"}</button>
+                <button onClick={addProduct}>Add {price}$ {!count > 0 ? "" : "(" + count + ")"}</button>
             </div>
             {count > 0 &&
                 (<div className="operations">
