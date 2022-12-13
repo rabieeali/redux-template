@@ -1,10 +1,8 @@
 import { combineReducers } from "redux"
-import { counterReducer } from "./counter"
-import { loginReducer } from "./login"
+import { usersReducer } from "./usersReducer"
 
 
 
 export const reducers = combineReducers({
-    counter: counterReducer,
-    login: loginReducer
+    usersSlice: usersReducer
 })

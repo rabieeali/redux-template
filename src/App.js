@@ -1,8 +1,8 @@
-import Counter from "./components/Counter"
+import UsersList from "./components/UsersList"
 
 const App = () => {
   return (
-    <Counter />
+    <UsersList />
   )
 }
 
